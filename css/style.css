@@ -1,0 +1,39 @@
+*{
+
+    padding:0;
+    margin :0;
+    box-sizing: border-box;
+}
+.menu-div{
+    width: 100px;
+    height : 50px;
+    background-color: red;
+}
+
+.menu-btn{
+    width:20px;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+    top : 5px;
+}
+.pp{
+    display: inline-block;
+}
+.btn-stroke{
+    position: absolute;
+    height:3px;
+    width:100%;
+    background-color: black;
+}
+
+.menu-btn div:nth-child(1){
+    top : 3px;
+}
+
+.menu-btn div:nth-child(2){
+    top : 8px;
+}
+.menu-btn div:nth-child(3){
+    top : 13px;
+}
